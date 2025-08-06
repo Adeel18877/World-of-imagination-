@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ffe6f0, #ffccff);
+  color: #d63384;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+  padding-top: 100px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff69b4;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+canvas#charm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
